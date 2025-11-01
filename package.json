@@ -1,0 +1,28 @@
+{
+  "name": "b85-app",
+  "private": true,
+  "license": "UNLICENSED",
+  "version": "0.0.0",
+  "description": "My own super application.",
+  "scripts": {
+    "dev": "node ./scripts/dev.js",
+    "format": "prettier --write ."
+  },
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gikdev/b85-app.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gikdev/b85-app/issues"
+  },
+  "homepage": "https://github.com/gikdev/b85-app#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "prettier": "^3.6.2"
+  }
+}
